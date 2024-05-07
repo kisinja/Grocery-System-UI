@@ -41,11 +41,11 @@ const NavBar = () => {
             </Link>
           </li>
         </ul>
-        <div className="hidden sm:flex gap-2 items-center">
-          <i className="fa-solid fa-heart text-lg text-gray-500"></i>
-          <i className="fa-solid fa-shopping-cart text-lg text-gray-500"></i>
+        <div className="hidden sm:flex gap-5 items-center">
+          <i className="fa-solid fa-heart text-lg text-gray-500 hover:text-black cursor-pointer"></i>
+          <i className="fa-solid fa-shopping-cart text-lg text-gray-500 hover:text-black cursor-pointer"></i>
         </div>
-        <div className="hidden sm:flex gap-3 items-center">
+        <div className="hidden sm:flex gap-3 items-center relative">
           <Link to="/about" className="text-gray-500 border border-gray-700 rounded py-2 px-5 hover:bg-white hover:border-none font-semibold">Login</Link>
           <Link to="/about" className="py-2 px-5 rounded text-white bg-green-500 hover:bg-green-700">Sign Up</Link>
         </div>
